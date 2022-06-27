@@ -1,0 +1,16 @@
+Name=zero-lliurex-cdc
+Name[en]=LliureX-CDC integration
+Name[es]=Integración LliureX-CDC
+Name[qcv]=Integració LliureX-CDC
+Name[ca@valencia]=Integració LliureX-CDC
+Name[ca_ES]=Integració LliureX-CDC
+Comment= Tool to manage integration with CDC
+Comment[en]=Tool to manage integration with CDC
+Comment[es]=Herramienta para administrar la integración con el CDC
+Comment[qcv]=Eina per a adminstrar la integració amb el CDC
+Comment[ca@valencia]=Eina per a adminstrar la integració amb el CDC
+Comment[ca_ES]=Eina per a adminstrar la integració amb el CDC
+Category=System
+Icon=zero-lliurex-cdc-control
+ScriptPath=zero-lliurex-cdc-control.zmd
+Groups=sudo;admins
