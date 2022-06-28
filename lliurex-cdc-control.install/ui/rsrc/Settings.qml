@@ -175,6 +175,7 @@ Rectangle{
     } 
 
     function applyChanges(){
+        synchronizePopup.open()
         synchronizePopup.popupMessage=i18nd("lliurex-cdc-control", "Apply changes. Wait a moment...")
         delayTimer.stop()
         delay(500, function() {
@@ -186,6 +187,7 @@ Rectangle{
     } 
 
     function discardChanges(){
+        synchronizePopup.open()
         synchronizePopup.popupMessage=i18nd("lliurex-cdc-control", "Restoring previous values. Wait a moment...")
         delayTimer.stop()
         delay(1000, function() {
