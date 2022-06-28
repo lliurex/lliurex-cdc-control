@@ -216,7 +216,7 @@ class LliurexCDCControl(QObject):
 
 		self.showSettingsMessage=[False,"","Success"]
 		self.closePopUp=False
-		self._showSettingsChangesDialog=False
+		self.showChangesDialog=False
 		self.setChangesT=SetChanges(self.isIntegrationCDCEnabled)
 		self.setChangesT.start()
 		self.setChangesT.finished.connect(self._applyChanges)

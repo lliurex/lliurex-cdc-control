@@ -91,18 +91,18 @@ Dialog {
 
             onApplied:{
                 dialogApplyClicked()
-                accessControlBridge.manageSettingsDialog("Accept")
+                cdcControlBridge.manageSettingsDialog("Accept")
 
             }
 
             onDiscarded:{
                 discardDialogClicked(),
-                accessControlBridge.manageSettingsDialog("Discard")
+                cdcControlBridge.manageSettingsDialog("Discard")
 
             }
 
             onRejected:{
-                accessControlBridge.manageSettingsDialog("Cancel")
+                cdcControlBridge.manageSettingsDialog("Cancel")
 
             }
         }
